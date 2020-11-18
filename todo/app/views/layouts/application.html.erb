@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Todo</title>
+    <%= csrf_meta_tags %>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e8ceeeb981.js" crossorigin="anonymous"></script>
+<body>
+  <p class="notice"><%= notice %></p>
+       <p class="alert"><%= alert %></p>
+<div class="container">
+    <%= yield %>
+   </div>
+    
+  </body>
+</html>
